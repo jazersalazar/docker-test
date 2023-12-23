@@ -17,8 +17,6 @@ pipeline {
 
         stage('Unit Test') {
           steps {
-            sh '''cd app
-'''
             sh 'npm  -v'
           }
         }
