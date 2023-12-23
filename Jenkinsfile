@@ -18,8 +18,10 @@ pipeline {
         stage('Unit Test') {
           steps {
             sh '''cd app
-npm i
-npm run test:unit'''
+'''
+            sh '''npm i
+'''
+            sh 'npm run test:unit'
           }
         }
 
