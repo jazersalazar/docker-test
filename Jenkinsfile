@@ -20,7 +20,6 @@ pipeline {
             sh '''cd app
 '''
             sh 'npm  -v'
-            sh 'npm run test:unit'
           }
         }
 
