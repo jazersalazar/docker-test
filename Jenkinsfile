@@ -15,9 +15,11 @@ pipeline {
           }
         }
 
-        stage('') {
+        stage('Unit Test') {
           steps {
-            sh 'cd app && npm i && npm run test:unit'
+            sh '''cd app
+npm i
+npm run test:unit'''
           }
         }
 
