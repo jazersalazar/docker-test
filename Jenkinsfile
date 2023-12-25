@@ -17,7 +17,7 @@ pipeline {
 
         stage('Unit Test') {
           steps {
-            sh 'node -v'
+            sh 'cd app'
           }
         }
 
